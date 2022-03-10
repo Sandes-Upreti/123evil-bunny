@@ -1,0 +1,37 @@
+
+
+<html>
+    <head>
+        <title>Like and Dislike</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <style>
+    .fa{
+            font-size: 300px;
+            color: white;
+            cursor: pointer;
+            width: 400px;
+            height: 400px;
+            background-color: cornflowerblue;
+            border-radius: 100%;
+            line-height: 400px;
+            text-align: center;
+        }
+    .fa:hover{
+            color: khaki;
+        }
+    </style>
+    </head>
+     <body>
+        <i onclick="myfunction(this)" class="fa fa-thumbs-up"><a type="text" id="show"></a></i>
+        
+        <script>
+        
+            function myfunction(x)
+            {
+                x.classList.toggle("fa-thumbs-down");
+            }
+        </script>
+    
+    </body>
+    
+</html>
